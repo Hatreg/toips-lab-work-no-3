@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "UniNeueRegular";
+  src: url(../fonts/UniNeueRegular/UniNeueRegular.eot);
+  src: url(../fonts/UniNeueRegular/UniNeueRegular.eot?#iefix) format("embedded-opentype"), url(../fonts/UniNeueRegular/UniNeueRegular.woff) format("woff"), url(../fonts/UniNeueRegular/UniNeueRegular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "UniNeueHeavy";
+  src: url(../fonts/UniNeueHeavy/UniNeueHeavy.eot);
+  src: url(../fonts/UniNeueHeavy/UniNeueHeavy.eot?#iefix) format("embedded-opentype"), url(../fonts/UniNeueHeavy/UniNeueHeavy.woff) format("woff"), url(../fonts/UniNeueHeavy/UniNeueHeavy.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "UniNeueBook";
+  src: url(../fonts/UniNeueBook/UniNeueBook.eot);
+  src: url(../fonts/UniNeueBook/UniNeueBook.eot?#iefix) format("embedded-opentype"), url(../fonts/UniNeueBook/UniNeueBook.woff) format("woff"), url(../fonts/UniNeueBook/UniNeueBook.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: url(../fonts/OpenSans/OpenSans-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LatoRegular";
+  src: url(../fonts/Lato/Lato-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+body {
+  background: #0D1116;
+}
+
+h2, label, p {
+  color: #fff;
+  font-family: OpenSansRegular;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Uni Neue Heavy";
+  font-size: 26px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.main {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.animal-form {
+  margin-top: 20px;
+  background: #30363d;
+  border-radius: 12px;
+}
+.animal-form__header {
+  padding: 20px;
+  border-bottom: 1px solid #0D1116;
+  text-align: center;
+}
+.animal-form__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+  color: #fff;
+  font-family: OpenSansRegular;
+}
+.animal-form__group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.animal-form__item {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.animal-form__item label {
+  cursor: pointer;
+}
+.animal-form__item input {
+  cursor: pointer;
+}
+.animal-form__footer {
+  border-top: 1px solid #0D1116;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.animal-form__button {
+  background: #0550ae;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #0550ae;
+  border-radius: 12px;
+  font-family: OpenSansRegular;
+  cursor: pointer;
+}
+
+#question {
+  color: #fff;
+  font-family: OpenSansRegular;
+}
